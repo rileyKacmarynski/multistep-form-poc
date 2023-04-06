@@ -1,0 +1,11 @@
+# What are tough things we need to figure out?
+- How to access and react to all other state
+  - do logic base on that state
+- query params
+- validation
+  - want to make sure everything is valid at the end
+  - this might suck. rules depending on other form values might span steps
+- figure out callbacks
+  - can we expose hooks that we can pass a callback to?
+  - need some way for a step to say what to do when moving onto the next step
+- Need to be able to add or remove steps throughout the process
